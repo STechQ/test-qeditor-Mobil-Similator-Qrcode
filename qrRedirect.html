@@ -36,7 +36,7 @@
         const clientId = getQueryParamValue();
 
         if (retVal === "Android") {
-            window.location.replace("app://com.softtech.quick.simulationapp?json=" + clientId);
+            window.location.replace("app://com.softtech.quick.simulationapp?clientId=" + clientId);
             setTimeout(() => {
                 window.location.replace(
                     "https://install.appcenter.ms/users/yusuf.yildiz/apps/plateau-simulator/distribution_groups/beta%20testers"
